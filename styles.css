@@ -3,12 +3,16 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header{
+.header,
+.hero-banner{
     background-color: #1f2937;
+    padding: 0 200px;
+}
+
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
 }
 
 .header .logo{
@@ -16,11 +20,7 @@ body{
     font-size: 24px;
 }
 
-.header .nav-buttons{
-
-}
-
-ul {
+.nav-buttons>ul {
     list-style: none;
     display: flex;
     font-size: 18px;
@@ -32,7 +32,31 @@ a {
     text-decoration: none;
 }
 
-.hero-right>img{
-    height: 20px;
-    width: 20px;
+.hero-banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.hero-left,
+.hero-right{
+    flex: 1;
+}
+
+/* min-width is needed to get the picture to not overflow out of the box */
+.hero-right{
+    min-width: 0px;
+}
+
+.hero-text{
+    font-size: 48px;
+    color: #F9Faf8;
+    font-weight: bolder;
+}
+
+.hero-caption{
+    color: #e5e7eb;
+    font-size: 18px;
 }
