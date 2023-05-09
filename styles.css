@@ -57,7 +57,11 @@ a {
     width: 125px;
     text-align: center;
     padding: 10px;
-    border-radius: 10px
+    border-radius: 10px;
+}
+
+.sign-up-text{
+    color: #F9Faf8;
 }
 
 /* min-width is needed to get the picture to not overflow out of the box */
