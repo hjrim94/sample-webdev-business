@@ -45,6 +45,21 @@ a {
     flex: 1;
 }
 
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: #F9Faf8;
+    width: 125px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px
+}
+
 /* min-width is needed to get the picture to not overflow out of the box */
 .hero-right{
     min-width: 0px;
